@@ -1,0 +1,25 @@
+<! DOCTYPE html >
+< html  lang = " en-EN " >
+< głowa >
+    < meta  charset = " UTF-8 " >
+    < tytuł > Data // Skrypt </ tytuł >
+</ head >
+< body >
+
+    < skrypt >
+
+        var  date  =  new  Date ( ) ;
+        var  dayNames  =  [ "poniedziałek" ,  "wtorek" ,  "środa" ,  "czwartek" ,  "piątek" ,  "sobota" ,  "niedziela" ] ;
+        var  monthNames  =  [ "styczeń" ,  "luty" ,  "marzec" ,  "kwiecień" ,  "maj" ,  "czerwiec" ,
+            „Lipiec” ,  „Sierpień” ,  „Wrzesień” ,  „Październik” ,  „Listopad” ,  „Grudzień” ] ;
+        var  rok  =  String ( data . getFullYear ( ) ) ;
+        
+        date  =  dayNames [ data . getDay ( ) ]  +  ''  +  monthNames [ date . getMonth ( ) ]  +  ''  +  rok ;
+        dokument . napisz ( data ) ;
+
+       
+    </ script >
+
+
+</ body >
+</ html >
